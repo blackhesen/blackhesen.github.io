@@ -1266,6 +1266,14 @@ pre .javascript .function {
 .use-motion .collection-title {
   opacity: 0;
 }
+.post-body p a {
+  color: #0593d3;
+  border-bottom: none;
+}
+.post-body p a:hover {
+  color: #0477ab;
+  text-decoration: underline;
+}
 .posts-expand {
   padding-top: 40px;
 }
@@ -1934,7 +1942,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #1cdd6b;
+  background: #b6ff90;
 }
 .links-of-author-item {
   text-align: center;
