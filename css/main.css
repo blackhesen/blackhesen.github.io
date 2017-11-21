@@ -2062,7 +2062,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b82ad6;
+  background: #04cdab;
 }
 .links-of-author-item {
   text-align: center;
@@ -3161,7 +3161,7 @@ hr {
 }
 .footer-inner {
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
 }
 @media (max-width: 767px) {
   .footer-inner {
