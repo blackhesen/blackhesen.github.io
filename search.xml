@@ -8,6 +8,12 @@
       <content type="html"><![CDATA[<p>以下以安装SVN插件为例<br>今天需要给eclipse安装svn插件，觉得link方式便于管理于是就打算用这种方式来安装。<br>我电脑上的eclipse的安装目录是   E:\tools\eclipse   下面开始安装<br>1、在eclipse的安装目录eclipse中新建2个文件夹一般是myplugins和links<br>E:\tools\eclipse\MYplugins       E:\tools\eclipse\links<br>2、在MYplugins文件夹中新建一个文件夹命名为你需安装的插件名称我的是subclipse<br>E:\tools\eclipse\MYplugins\subclipse<br>3、在subeclipse中再新建一个命名为eclipse的文件夹<br>E:\tools\eclipse\MYplugins\subclipse\eclipse<br>4、如果下载的插件压缩包解压出来有features和plugins这2个文件夹就把压缩包直接解压到eclipse文件夹中<br>E:\tools\eclipse\MYplugins\subclipse\eclipse\features<br>E:\tools\eclipse\MYplugins\subclipse\eclipse\plugins<br>5、回到1中的links文件夹中，新建一个命名为插件的文件，文件后缀为.link  我的为subclipse.link<br>E:\tools\eclipse\links\subclipse.link<br>6、编辑subeclipse.link，在里面写上第2步的路径  文字内容为：<br>path=E:/tools/eclipse/MYplugins/subclipse<br>注意：我是在windows环境用的/也可以用\<br>7、重启eclipse,查看show view里有插件选项了   大功告成。<br>8、重启后没成功的，首先要检查下确保前面的步骤没有出错，可以尝试以下操作。<br>    eclipse 目录下的 configuration 文件夹中的org.eclipse.update 删除后再重新启动 Eclipse<br>    还可以尝试，eclipse 目录下的configuration 文件夹中编辑 config.ini文件 org.eclipse.update.reconcile=false，将 false 改成 true，重启 Eclipse。</p>
 ]]></content>
       
+        <categories>
+            
+            <category> eclipse </category>
+            
+        </categories>
+        
         
         <tags>
             
