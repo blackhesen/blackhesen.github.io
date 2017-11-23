@@ -5,11 +5,11 @@
     <entry>
       <title><![CDATA[免安装MYSQL使用步骤]]></title>
       <url>/2017/11/21/mysql/</url>
-      <content type="html"><![CDATA[<p>1.首先下载：<a href="http://dev.mysql.com/downloads/mysql/" target="_blank" rel="noopener">http://dev.mysql.com/downloads/mysql/</a><br><img src="/uploads/mysql1.png"><br><img src="/uploads/mysql2.png"></p>
+      <content type="html"><![CDATA[<p>1.首先下载：<a href="http://dev.mysql.com/downloads/mysql/" target="_blank" rel="noopener">http://dev.mysql.com/downloads/mysql/</a><br><img src="http://oztgby7wb.bkt.clouddn.com/mysq1.png"><br><img src="http://oztgby7wb.bkt.clouddn.com/mysql2.png"></p>
 <p>2.配置环境：解压下载压缩包，并配置环境变量</p>
-<p>3.编辑数据库的配置文件：创建data文件夹，打开my-default.ini文件(没有的话，从网上下载一个)，修改如下参数<br><img src="/uploads/mysql3.png"><br>用管理员身份打开命令行，进入bin目录，输入mysqld –install  执行完提示安装成功<br><img src="/uploads/mysql4.png"></p>
-<p>4.初始化MYSQL<br><img src="/uploads/mysql5.png"><br><img src="/uploads/mysql6.png"></p>
-<p><img src="/uploads/mysql7.png"></p>
+<p>3.编辑数据库的配置文件：创建data文件夹，打开my-default.ini文件(没有的话，从网上下载一个)，修改如下参数<br><img src="http://oztgby7wb.bkt.clouddn.com/mysql3.png"><br>用管理员身份打开命令行，进入bin目录，输入mysqld –install  执行完提示安装成功<br><img src="http://oztgby7wb.bkt.clouddn.com/mysql4.png"></p>
+<p>4.初始化MYSQL<br><img src="http://oztgby7wb.bkt.clouddn.com/mysql5.png"><br><img src="http://oztgby7wb.bkt.clouddn.com/mysql6.png"></p>
+<p><img src="http://oztgby7wb.bkt.clouddn.com/mysql7.png"></p>
 ]]></content>
       
         <categories>
