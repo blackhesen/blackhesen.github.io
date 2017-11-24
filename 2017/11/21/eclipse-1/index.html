@@ -93,12 +93,12 @@
 <meta property="og:title" content="Eclipse以link方式安装插件">
 <meta property="og:url" content="http://www.blackhesen.top/2017/11/21/eclipse-1/index.html">
 <meta property="og:site_name" content="Black Note">
-<meta property="og:description" content="以下以安装SVN插件为例今天需要给eclipse安装svn插件，觉得link方式便于管理于是就打算用这种方式来安装。我电脑上的eclipse的安装目录是   E:\tools\eclipse   下面开始安装1、在eclipse的安装目录eclipse中新建2个文件夹一般是myplugins和links1E:\tools\eclipse\MYplugins       E:\tools\eclip">
+<meta property="og:description" content="以下以安装SVN插件为例今天需要给eclipse安装svn插件，觉得link方式便于管理于是就打算用这种方式来安装。我电脑上的eclipse的安装目录是   E:\tools\eclipse   下面开始安装1、在eclipse的安装目录eclipse中新建2个文件夹一般是myplugins和links1E:\tools\eclipse\MYplugins       E:\tools\ecli">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-11-24T02:22:28.448Z">
+<meta property="og:updated_time" content="2017-11-24T03:00:48.833Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Eclipse以link方式安装插件">
-<meta name="twitter:description" content="以下以安装SVN插件为例今天需要给eclipse安装svn插件，觉得link方式便于管理于是就打算用这种方式来安装。我电脑上的eclipse的安装目录是   E:\tools\eclipse   下面开始安装1、在eclipse的安装目录eclipse中新建2个文件夹一般是myplugins和links1E:\tools\eclipse\MYplugins       E:\tools\eclip">
+<meta name="twitter:description" content="以下以安装SVN插件为例今天需要给eclipse安装svn插件，觉得link方式便于管理于是就打算用这种方式来安装。我电脑上的eclipse的安装目录是   E:\tools\eclipse   下面开始安装1、在eclipse的安装目录eclipse中新建2个文件夹一般是myplugins和links1E:\tools\eclipse\MYplugins       E:\tools\ecli">
 
 
 
@@ -398,7 +398,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  392
+                  445
                 </span>
               
 
@@ -435,7 +435,8 @@
       
 
       
-        <h2 id="以下以安装SVN插件为例"><a href="#以下以安装SVN插件为例" class="headerlink" title="以下以安装SVN插件为例"></a>以下以安装SVN插件为例</h2><p>今天需要给eclipse安装svn插件，觉得link方式便于管理于是就打算用这种方式来安装。<br>我电脑上的eclipse的安装目录是   E:\tools\eclipse   下面开始安装<br>1、在eclipse的安装目录eclipse中新建2个文件夹一般是myplugins和links<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">E:\tools\eclipse\MYplugins       E:\tools\eclipse\links</span><br></pre></td></tr></table></figure></p>
+        <hr>
+<h2 id="以下以安装SVN插件为例"><a href="#以下以安装SVN插件为例" class="headerlink" title="以下以安装SVN插件为例"></a>以下以安装SVN插件为例</h2><p>今天需要给eclipse安装svn插件，觉得link方式便于管理于是就打算用这种方式来安装。<br>我电脑上的eclipse的安装目录是   E:\tools\eclipse   下面开始安装<br>1、在eclipse的安装目录eclipse中新建2个文件夹一般是myplugins和links<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">E:\tools\eclipse\MYplugins       E:\tools\eclipse\links</span><br></pre></td></tr></table></figure></p>
 <p>2、在MYplugins文件夹中新建一个文件夹命名为你需安装的插件名称我的是subclipse<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">E:\tools\eclipse\MYplugins\subclipse</span><br></pre></td></tr></table></figure></p>
 <p>3、在subeclipse中再新建一个命名为eclipse的文件夹<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">E:\tools\eclipse\MYplugins\subclipse\eclipse</span><br></pre></td></tr></table></figure></p>
 <p>4、如果下载的插件压缩包解压出来有features和plugins这2个文件夹就把压缩包直接解压到eclipse文件夹中<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">E:\tools\eclipse\MYplugins\subclipse\eclipse\features</span><br><span class="line">E:\tools\eclipse\MYplugins\subclipse\eclipse\plugins</span><br></pre></td></tr></table></figure></p>
@@ -443,9 +444,14 @@
 <p>6、编辑subeclipse.link，在里面写上第2步的路径  文字内容为：<br>path=E:/tools/eclipse/MYplugins/subclipse<br>注意：我是在windows环境用的/也可以用\</p>
 <p>7、重启eclipse,查看show view里有插件选项了   大功告成。</p>
 <p>8、重启后没成功的，首先要检查下确保前面的步骤没有出错，可以尝试以下操作</p>
-<pre><code>eclipse 目录下的 configuration 文件夹中的org.eclipse.update 删除后再重新启动 Eclipse
-还可以尝试，eclipse 目录下的configuration 文件夹中编辑 config.ini文件 org.eclipse.update.reconcile=false，将 false 改成 true，重启 Eclipse。
-</code></pre>
+<p>eclipse 目录下的 configuration 文件夹中的org.eclipse.update 删除后再重新启动 Eclipse<br>还可以尝试，eclipse 目录下的configuration 文件夹中编辑 config.ini文件 org.eclipse.update.reconcile=false，将 false 改成 true，重启 Eclipse。</p>
+<h2 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h2><blockquote>
+<p>感谢家人，感谢朋友，感谢爱我的人，感谢我爱的人，感谢曾经帮助过我的每个人，在此，由衷地感谢！</p>
+</blockquote>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><blockquote>
+<p><a href="http://www.cnblogs.com/yousen/p/5505372.html" target="_blank" rel="noopener">http://www.cnblogs.com/yousen/p/5505372.html</a></p>
+</blockquote>
+
       
     </div>
     
@@ -501,7 +507,7 @@
   </li>
   <li class="post-copyright-update">
     <strong>最后更新：</strong>
-    2017年11月24日 - 10:22
+    2017年11月24日 - 11:00
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
@@ -740,7 +746,7 @@ var jiathis_config={
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#以下以安装SVN插件为例"><span class="nav-number">1.</span> <span class="nav-text">以下以安装SVN插件为例</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#以下以安装SVN插件为例"><span class="nav-number">1.</span> <span class="nav-text">以下以安装SVN插件为例</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#致谢"><span class="nav-number">2.</span> <span class="nav-text">致谢</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考文献"><span class="nav-number">3.</span> <span class="nav-text">参考文献</span></a></li></ol></div>
             
 
           </div>
