@@ -5,11 +5,11 @@
     <entry>
       <title><![CDATA[免安装MYSQL使用步骤]]></title>
       <url>/2017/11/21/mysql/</url>
-      <content type="html"><![CDATA[<h2 id="免安装MYSQL使用步骤"><a href="#免安装MYSQL使用步骤" class="headerlink" title="免安装MYSQL使用步骤"></a>免安装MYSQL使用步骤</h2><h3 id="1-首先下载"><a href="#1-首先下载" class="headerlink" title="1.首先下载"></a>1.首先下载</h3><p>下载地址：<a href="http://dev.mysql.com/downloads/mysql/" target="_blank" rel="noopener">http://dev.mysql.com/downloads/mysql/</a><br><img src="http://oztgby7wb.bkt.clouddn.com/mysq1.png"><br><img src="http://oztgby7wb.bkt.clouddn.com/mysql2.png"></p>
+      <content type="html"><![CDATA[<h2 id="免安装MYSQL使用步骤"><a href="#免安装MYSQL使用步骤" class="headerlink" title="免安装MYSQL使用步骤"></a>免安装MYSQL使用步骤</h2><h3 id="1-首先下载"><a href="#1-首先下载" class="headerlink" title="1.首先下载"></a>1.首先下载</h3><p>下载地址：<a href="http://dev.mysql.com/downloads/mysql/" target="_blank" rel="noopener">http://dev.mysql.com/downloads/mysql/</a><br><img src="http://oztgby7wb.bkt.clouddn.com/mysql1.png" alt=""><br><img src="http://oztgby7wb.bkt.clouddn.com/mysql2.png" alt=""></p>
 <h3 id="2-配置环境"><a href="#2-配置环境" class="headerlink" title="2.配置环境"></a>2.配置环境</h3><p>解压下载压缩包，并配置环境变量，与java的环境变量配置一样，可以自行百度</p>
-<h3 id="3-编辑数据库的配置文件"><a href="#3-编辑数据库的配置文件" class="headerlink" title="3.编辑数据库的配置文件"></a>3.编辑数据库的配置文件</h3><p>创建data文件夹，打开my-default.ini文件(没有的话，从网上下载一个)，修改如下参数<br><img src="http://oztgby7wb.bkt.clouddn.com/mysql3.png"><br>用管理员身份打开命令行，进入bin目录，输入mysqld –install  执行完提示安装成功<br><img src="http://oztgby7wb.bkt.clouddn.com/mysql4.png"></p>
-<h3 id="4-初始化MYSQL"><a href="#4-初始化MYSQL" class="headerlink" title="4.初始化MYSQL"></a>4.初始化MYSQL</h3><p><img src="http://oztgby7wb.bkt.clouddn.com/mysql5.png" alt=""><br><img src="http://oztgby7wb.bkt.clouddn.com/mysql5.png" alt=""></p>
-<h3 id="5"><a href="#5" class="headerlink" title="5."></a>5.</h3><p><img src="http://oztgby7wb.bkt.clouddn.com/mysql7.png" alt=""></p>
+<h3 id="3-编辑数据库的配置文件"><a href="#3-编辑数据库的配置文件" class="headerlink" title="3.编辑数据库的配置文件"></a>3.编辑数据库的配置文件</h3><p>创建data文件夹，打开my-default.ini文件(没有的话，从网上下载一个)，修改如下参数<br><img src="http://oztgby7wb.bkt.clouddn.com/mysql3.png" alt=""><br>用管理员身份打开命令行，进入bin目录，输入mysqld –install  执行完提示安装成功<br><img src="http://oztgby7wb.bkt.clouddn.com/mysql4.png" alt=""></p>
+<h3 id="4-初始化MYSQL"><a href="#4-初始化MYSQL" class="headerlink" title="4.初始化MYSQL"></a>4.初始化MYSQL</h3><p><img src="http://oztgby7wb.bkt.clouddn.com/mysql5.png" alt=""><br><img src="http://oztgby7wb.bkt.clouddn.com/mysql6.png" alt=""></p>
+<h3 id="5-最后步骤"><a href="#5-最后步骤" class="headerlink" title="5.最后步骤"></a>5.最后步骤</h3><p><img src="http://oztgby7wb.bkt.clouddn.com/mysql7.png" alt=""></p>
 <h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p><a href="http://blog.csdn.net/wu_wxc/article/details/53706398" target="_blank" rel="noopener">http://blog.csdn.net/wu_wxc/article/details/53706398</a></p>
 ]]></content>
       
@@ -30,9 +30,18 @@
     
     <entry>
       <title><![CDATA[Eclipse以link方式安装插件]]></title>
-      <url>/2017/11/21/new-title/</url>
-      <content type="html"><![CDATA[<p>以下以安装SVN插件为例<br>今天需要给eclipse安装svn插件，觉得link方式便于管理于是就打算用这种方式来安装。<br>我电脑上的eclipse的安装目录是   E:\tools\eclipse   下面开始安装<br>1、在eclipse的安装目录eclipse中新建2个文件夹一般是myplugins和links<br>E:\tools\eclipse\MYplugins       E:\tools\eclipse\links<br>2、在MYplugins文件夹中新建一个文件夹命名为你需安装的插件名称我的是subclipse<br>E:\tools\eclipse\MYplugins\subclipse<br>3、在subeclipse中再新建一个命名为eclipse的文件夹<br>E:\tools\eclipse\MYplugins\subclipse\eclipse<br>4、如果下载的插件压缩包解压出来有features和plugins这2个文件夹就把压缩包直接解压到eclipse文件夹中<br>E:\tools\eclipse\MYplugins\subclipse\eclipse\features<br>E:\tools\eclipse\MYplugins\subclipse\eclipse\plugins<br>5、回到1中的links文件夹中，新建一个命名为插件的文件，文件后缀为.link  我的为subclipse.link<br>E:\tools\eclipse\links\subclipse.link<br>6、编辑subeclipse.link，在里面写上第2步的路径  文字内容为：<br>path=E:/tools/eclipse/MYplugins/subclipse<br>注意：我是在windows环境用的/也可以用\<br>7、重启eclipse,查看show view里有插件选项了   大功告成。<br>8、重启后没成功的，首先要检查下确保前面的步骤没有出错，可以尝试以下操作。<br>    eclipse 目录下的 configuration 文件夹中的org.eclipse.update 删除后再重新启动 Eclipse<br>    还可以尝试，eclipse 目录下的configuration 文件夹中编辑 config.ini文件 org.eclipse.update.reconcile=false，将 false 改成 true，重启 Eclipse。</p>
-]]></content>
+      <url>/2017/11/21/eclipse-1/</url>
+      <content type="html"><![CDATA[<h2 id="以下以安装SVN插件为例"><a href="#以下以安装SVN插件为例" class="headerlink" title="以下以安装SVN插件为例"></a>以下以安装SVN插件为例</h2><p>今天需要给eclipse安装svn插件，觉得link方式便于管理于是就打算用这种方式来安装。<br>我电脑上的eclipse的安装目录是   E:\tools\eclipse   下面开始安装<br>1、在eclipse的安装目录eclipse中新建2个文件夹一般是myplugins和links<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">E:\tools\eclipse\MYplugins       E:\tools\eclipse\links</span><br></pre></td></tr></table></figure></p>
+<p>2、在MYplugins文件夹中新建一个文件夹命名为你需安装的插件名称我的是subclipse<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">E:\tools\eclipse\MYplugins\subclipse</span><br></pre></td></tr></table></figure></p>
+<p>3、在subeclipse中再新建一个命名为eclipse的文件夹<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">E:\tools\eclipse\MYplugins\subclipse\eclipse</span><br></pre></td></tr></table></figure></p>
+<p>4、如果下载的插件压缩包解压出来有features和plugins这2个文件夹就把压缩包直接解压到eclipse文件夹中<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">E:\tools\eclipse\MYplugins\subclipse\eclipse\features</span><br><span class="line">E:\tools\eclipse\MYplugins\subclipse\eclipse\plugins</span><br></pre></td></tr></table></figure></p>
+<p>5、回到1中的links文件夹中，新建一个命名为插件的文件，文件后缀为.link  我的为subclipse.link<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">E:\tools\eclipse\links\subclipse.link</span><br></pre></td></tr></table></figure></p>
+<p>6、编辑subeclipse.link，在里面写上第2步的路径  文字内容为：<br>path=E:/tools/eclipse/MYplugins/subclipse<br>注意：我是在windows环境用的/也可以用\</p>
+<p>7、重启eclipse,查看show view里有插件选项了   大功告成。</p>
+<p>8、重启后没成功的，首先要检查下确保前面的步骤没有出错，可以尝试以下操作</p>
+<pre><code>eclipse 目录下的 configuration 文件夹中的org.eclipse.update 删除后再重新启动 Eclipse
+还可以尝试，eclipse 目录下的configuration 文件夹中编辑 config.ini文件 org.eclipse.update.reconcile=false，将 false 改成 true，重启 Eclipse。
+</code></pre>]]></content>
       
         <categories>
             
@@ -44,35 +53,6 @@
         <tags>
             
             <tag> eclipse </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Hello World]]></title>
-      <url>/2017/11/21/hello-world/</url>
-      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> 搭建博客 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> hexo演示 </tag>
             
         </tags>
         
