@@ -3,6 +3,44 @@
   
     
     <entry>
+      <title><![CDATA[关于程序员感兴趣的各大网站]]></title>
+      <url>/2017/11/24/address/</url>
+      <content type="html"><![CDATA[<hr>
+<h2 id="各大网站"><a href="#各大网站" class="headerlink" title="各大网站"></a>各大网站</h2><p><strong>maven阿里云仓库</strong>：<a href="http://maven.aliyun.com" target="_blank" rel="noopener">http://maven.aliyun.com</a></p>
+<p><strong>Json格式校验</strong>：<a href="https://www.bejson.com/" target="_blank" rel="noopener">https://www.bejson.com/</a></p>
+<blockquote>
+<p>说明：BeJson里面有大量的在线编辑器、免费接口、相关文档、加密工具等</p>
+</blockquote>
+<p><strong>icon下载</strong>：</p>
+<blockquote>
+<p><strong>esayicon</strong>：<a href="http://www.easyicon.net/update/" target="_blank" rel="noopener">http://www.easyicon.net/update/</a></p>
+<p><strong>Font Awerome</strong>：<a href="http://fontawesome.io" title="Font Awesome" target="_blank" rel="noopener">http://fontawesome.io</a></p>
+</blockquote>
+<p><strong>icon在线制作</strong>：<a href="http://tool.lu/favicon/" title="icon在线制作" target="_blank" rel="noopener">http://tool.lu/favicon/</a></p>
+<p><strong>正则表达式在线校验</strong>：<a href="http://www.rubular.com/" title="正则表达式在线校验" target="_blank" rel="noopener">http://www.rubular.com/</a></p>
+<p><strong>在线Cron表达式生成器</strong>：<a href="http://cron.qqe2.com/" title="在线Cron表达式生成器" target="_blank" rel="noopener">http://cron.qqe2.com/</a></p>
+<p><strong><em>未完，持续更新中……</em></strong></p>
+<h2 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h2><blockquote>
+<p>感谢家人，感谢朋友，感谢爱我的人，感谢我爱的人，感谢曾经帮助过我的每个人，在此，由衷地感谢！</p>
+</blockquote>
+]]></content>
+      
+        <categories>
+            
+            <category> 学习网站 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 链接 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[免安装MYSQL使用步骤]]></title>
       <url>/2017/11/21/mysql/</url>
       <content type="html"><![CDATA[<hr>
