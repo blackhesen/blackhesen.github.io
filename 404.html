@@ -718,22 +718,26 @@
 
 
 
-
-<!-- LOCAL: You can save these files to your site and update links -->
-    
-        
-        <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-        <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-    
-<!-- END LOCAL -->
-
-    
-
-    
-
-
-
-
+     
+     
+     
+     
+     <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+     <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+     
+         <script type="text/javascript">
+             var gitment = new Gitment({
+                id: document.location.href, 
+                 owner: 'blackhesen',
+                 repo: 'gitcomments',
+                 oauth: {
+                     client_id: '26c52f4e31bde49b45c1',
+                     client_secret: '3d22e6864cc865a218a1266b93c6eb2f1cd24fa7',
+                 }});
+             gitment.render('gitment-container');
+         </script>
+     
+ 
 
 
 
